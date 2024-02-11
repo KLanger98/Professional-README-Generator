@@ -81,8 +81,8 @@ function renderLicenseSection(license) {
   ## License
 
   ${licenseBadge}
-  Please access the link detailing the license here:
-  ${licenseLink}
+
+  Please access the link detailing the license here: ${licenseLink}
   `
 
 }
@@ -108,9 +108,12 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contribute](#contribute)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation
 
@@ -120,17 +123,9 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
-  ## Credits
-
-    List your collaborators, if any, with links to their GitHub profiles.
-
-    If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-    If you followed tutorials, include links to those here as well.
-
   ${licenseRender}
 
-  ## How to Contribute
+  ## Contribute
 
   ${data.contribute}
 
@@ -139,10 +134,11 @@ function generateMarkdown(data) {
   ${data.tests}
     
   ## Questions
-    If you have any additional questions about this project please contact me at the following links:
-  ${data.githubUsername}
-    Email me at ${data.email}
-    `;
+  If you have any additional questions about this project please contact me at my email ${data.email}.
+
+  You can also check out my Github here:
+  https://github.com/${data.githubUsername}
+  `;
 }
 
 module.exports = generateMarkdown;

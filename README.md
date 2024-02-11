@@ -1,22 +1,24 @@
 
-  ![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
   # y
+  
   ## Description
 
   y
 
   y
 
-  y
+  yy
 
   y
 
   ## Table of Contents
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [How to Contribute](#howtocontribute)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation
 
@@ -26,20 +28,12 @@
 
   y
 
-  ## Credits
-
-    List your collaborators, if any, with links to their GitHub profiles.
-
-    If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-    If you followed tutorials, include links to those here as well.
+  
+  ## License
 
   
-  ##License
 
-  ![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
-  Please access the link detailing the license here:
-  
+  Please access the link detailing the license here: 
   
 
   ## How to Contribute
@@ -51,7 +45,8 @@
   y
     
   ## Questions
-    If you have any additional questions about this project please contact me at the following links:
-  y
-    Email me at y
-    
+  If you have any additional questions about this project please contact me at my email .
+
+  You can also check out my Github here:
+  https://github.com/
+  

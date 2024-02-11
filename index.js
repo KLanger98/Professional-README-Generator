@@ -26,7 +26,7 @@ const questions = [{
     },
     {
       type: 'input',
-      message: 'What did you learn',
+      message: 'What did you learn?',
       name: 'lessonLearnt',
     },
     {
@@ -46,7 +46,7 @@ const questions = [{
     },
     {
       type: 'input',
-      message: 'Please provide a details about tests of your project',
+      message: 'Please provide details about the tests of your project',
       name: 'tests',
     },
     {
@@ -57,49 +57,49 @@ const questions = [{
     },
     {
       type: 'list',
-      message: 'Choose a license',
+      message: 'Choose an Apache license',
       name: 'specificLicense',
       when: (response) => response.license === "Apache",
       choices: ["Apache 2.0 License"]
     },
     {
       type: 'list',
-      message: 'Choose a license',
+      message: 'Choose a Boost license',
       name: 'specificLicense',
       when: (response) => response.license === "Boost",
       choices: ["Boost Software License 1.0"]
     },
     {
       type: 'list',
-      message: 'Choose a license',
+      message: 'Choose a GNU license',
       name: 'specificLicense',
       when: (response) => response.license === "GNU",
       choices: ["GNU GPL v3", "GNU GPL v2", "GNU AGPL v3", "GNU LGPL v3", "GNU FDL v1.3"]
     },
     {
       type: 'list',
-      message: 'Choose a license',
+      message: 'Choose an ISC license',
       name: 'specificLicense',
       when: (response) => response.license === "ISC",
       choices: ["ISC License (ISC)"]
     },
     {
       type: 'list',
-      message: 'Choose a license',
+      message: 'Choose an MIT license',
       name: 'specificLicense',
       when: (response) => response.license === "MIT",
       choices: ["The MIT License"]
     },
     {
       type: 'list',
-      message: 'Choose a license',
+      message: 'Choose a Mozilla license',
       name: 'specificLicense',
       when: (response) => response.license === "Mozilla",
       choices: ["Mozilla Public License 2.0"]
     },
     {
       type: 'list',
-      message: 'Choose a license',
+      message: 'Choose an Unlicense license',
       name: 'specificLicense',
       when: (response) => response.license === "Unlicense",
       choices: ["The Unlicense"]
@@ -111,20 +111,15 @@ const questions = [{
     },
     {
       type: 'input',
-      message: 'What is your email address',
+      message: 'What is your email address?',
       name: 'email',
     }];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 
-    let markdown = generateMarkdown(data)
-    //Write title
+    let markdown = generateMarkdown(data);
 
-    //Write description
-
-    //Wrist installation
-    
     fs.writeFile(fileName, markdown, (err) =>
   err ? console.error(err) : console.log('Success!')
 );
@@ -134,7 +129,6 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-
 inquirer
     .prompt(questions)
     
@@ -145,15 +139,3 @@ inquirer
 
 // Function call to initialize app
 init();
-
-
-//Questions
-//What title do you want to give your project?
-//Please add a description for your project
-//Please add instructions for installation
-//Please provide information about how to use this application
-//Outline how to contribute to this README
-//What tests exist for this Readme
-//Choose a license from the following list
-//Please enter your Github username
-//Please enter your email address
