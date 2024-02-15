@@ -11,8 +11,6 @@
 
   During the creation of this project I learnt the basics of Node.js, the backend and integrating applications for the backend. It has been especially useful to learn how to use Inquirer's prompts to ask the user questions on the command line and to use the provided information to write and append to files. I have also learnt some more in-depth details about what constitutes a professional README.md file which is always useful.
 
-  Please follow this link for a video demonstration: https://drive.google.com/file/d/13Of2FlfJRj65vF9fviABD-KFpkycvhqA/view
-
   ## Table of Contents
 
   - [Installation](#installation)
@@ -28,15 +26,7 @@
 
   ## Usage
 
-  In order to use this project. Navigate to the cloned repository in the command line and execute the index.js file with the command "node index.js". 
-
-  ![Screenshot to initiate application from CLI] (./Assets/Screenshots/InitiateScreen.png)
-  
-  You will then be prompted with a series of questions which will help you build your README.md. Most of the questions will require the user to type out their input, however they will be given the option to select their license from a list of common licenses which will then be used to generate badges for their README. 
-
-  ![Screenshot of terminal questions + list options] (./Assets/Screenshots/LogScreen.png)
-  
-  Once completed the README file will be generated and saved within the same repository.
+  In order to use this project. Navigate to the cloned repository in the command line and execute the index.js file with the command "node index.js". You will then be prompted with a series of questions which will help you build your README.md. Most of the questions will require the user to type out their input, however they will be given the option to select their license from a list of common licenses which will then be used to generate badges for their README. Once completed the README file will be generated and saved within the same repository.
 
   
   ## License
