@@ -1,6 +1,6 @@
 
-  # README.md generator
-  ![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
+  # Professional README.md Generator
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description
 
   The motivation for this project was to practice creating a Node.js backend application which could be initiated from the command line to complete a task. The selected task was to generate a README.md file from a series of prompts in the command line. 
@@ -31,9 +31,9 @@
   
   ## License
 
-  ![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-  Please access the link detailing the license here: http://unlicense.org/
+  Please access the link detailing the license here: https://opensource.org/licenses/MIT
   
 
   ## Contribute
@@ -48,5 +48,5 @@
   If you have any additional questions about this project please contact me at my email karl.w.langer@gmail.com.
 
   You can also check out my Github here:
-  https://github.com/Klanger98
+  https://github.com/KLanger98
   
