@@ -30,11 +30,11 @@
 
   In order to use this project. Navigate to the cloned repository in the command line and execute the index.js file with the command "node index.js". 
 
-  ![Screenshot to initiate application from CLI] (./Assets/Screenshots/InitiateScreen.png)
+  ![Screenshot to initiate application from CLI](./Assets/Screenshots/InitiateScreen.png "Initiation example")
   
   You will then be prompted with a series of questions which will help you build your README.md. Most of the questions will require the user to type out their input, however they will be given the option to select their license from a list of common licenses which will then be used to generate badges for their README. 
 
-  ![Screenshot of terminal questions + list options] (./Assets/Screenshots/LogScreen.png)
+  ![Screenshot of terminal questions + list options](./Assets/Screenshots/LogScreen.png "Terminal log example")
   
   Once completed the README file will be generated and saved within the same repository.
 
